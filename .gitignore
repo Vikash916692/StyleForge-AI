@@ -1,0 +1,22 @@
+# Ignore macOS system files
+.DS_Store
+**/.DS_Store
+
+# Ignore Python bytecode and virtual environments
+__pycache__/
+**/__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+*.env
+
+# IDE & Editor settings
+.vscode/
+.idea/
+
+# Uploaded test images during runs
+static/uploads/*
+!static/uploads/.gitkeep
+NST_Code/static/uploads/*
+!NST_Code/static/uploads/.gitkeep
