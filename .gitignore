@@ -20,3 +20,10 @@ static/uploads/*
 !static/uploads/.gitkeep
 NST_Code/static/uploads/*
 !NST_Code/static/uploads/.gitkeep
+
+# Local documentation reports & generation scripts
+*.docx
+*.doc
+*.pdf
+generate_report.py
+
